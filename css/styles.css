@@ -20,7 +20,7 @@ body {
 
 /* Класс для обнуления базовых свойств у списков (ul) */
 .list {
-    list-style: 5;
+    list-style: none;
     padding-left: 0;
     margin: 0;
 }
