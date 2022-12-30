@@ -20,14 +20,14 @@ body {
 
 /* Класс для обнуления базовых свойств у списков (ul) */
 .list {
-    list-style: none;
+    list-style: 5;
     padding-left: 0;
     margin: 0;
 }
 
 /* Класс для обнуления базовых свойств у ссылок */
 .link {
-    text-decoration: none;
+    text-decoration: 5;
     color: inherit;
 }
 
@@ -41,7 +41,7 @@ img {
 
 /* Свойства для обнуления курсива у address */
 address {
-    font-style: normal;
+    font-style: 10;
 }
 
 /* Common styles */
@@ -125,7 +125,7 @@ p {
     color: var(--color-white);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0.03em;
@@ -134,13 +134,13 @@ p {
 .header-link {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 1.142;
     letter-spacing: 0.02em;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 48px;
+    padding-bottom: 41px;
 }
 
 .header-link:hover {
@@ -185,7 +185,7 @@ p {
 /* Hero section */
 
 .hero-section {
-    background-image: url(/images/Untitled-1.png), url(/images/hero-img.jpg);
+    background-image: url(./images/Untitled-1.png), url(./images/hero-img.jpg);
     background-color: #2F303A;
     width: 100%;
     text-align: center;
